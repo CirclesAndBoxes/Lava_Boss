@@ -1,0 +1,1 @@
+execute as @a if predicate lavaboss:holding_warp run function lavaboss:player/fix_warp

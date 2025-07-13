@@ -1,0 +1,22 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:player",
+    "equipment": {
+      "mainhand": {
+        "predicates": {
+          "minecraft:damage": {
+            "damage": {
+              "min": 1,
+              "max": 10000
+            }
+          },
+          "minecraft:custom_data": {
+            "warp_mace": true
+          }
+        }
+      }
+    }
+  }
+}
