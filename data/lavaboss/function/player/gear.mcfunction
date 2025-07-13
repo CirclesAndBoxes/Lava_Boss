@@ -7,3 +7,5 @@ item replace entity @s armor.legs with leather_leggings[item_name=[{"bold":false
 item replace entity @s armor.feet with leather_boots[item_name=[{"bold":false,"color":"white","italic":false,"text":"Air Boots"}],unbreakable={},damage_resistant={types:"#is_fire"},enchantments={binding_curse:1,feather_falling:5},tooltip_display={hidden_components:[enchantments]},enchantment_glint_override=true,dyed_color=268435455,trim={material:"minecraft:quartz",pattern:"minecraft:wayfinder"}] 1
 
 item replace entity @p hotbar.0 with iron_sword[consumable={consume_seconds:1000000,animation:"none",has_consume_particles:false},custom_data={warp_mace:true},max_damage=100,damage=0,item_name={"bold":true,"color":"#BDB9B9","italic":false,"text":"Warp Mace"},lore=[{"bold":false,"color":"#FFFFFF","italic":false,"text":"Right Click to Teleport"},{"bold":false,"color":"#FFFFFF","italic":false,"text":"Teleport 7 blocks"}],enchantments={wind_burst:2},weapon={item_damage_per_attack:0}] 1
+
+item replace entity @p hotbar.1 with feather[consumable={consume_seconds:1000000,animation:"none",has_consume_particles:false},custom_data={warp_mace:true}] 1
