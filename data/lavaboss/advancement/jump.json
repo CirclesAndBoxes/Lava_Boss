@@ -8,9 +8,8 @@
             "mainhand": {
               "components": {
                 "minecraft:custom_data": {
-                  "LaBo_warp_mace": true
-                },
-                "minecraft:damage": 0
+                  "LaBo_Jump": true
+                }
               }
             }
           }
@@ -24,7 +23,7 @@
     ]
   ],
   "rewards": {
-    "function": "lavaboss:player/warp"
+    "function": "lavaboss:player/jump"
   },
   "sends_telemetry_event": false
 }

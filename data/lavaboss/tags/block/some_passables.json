@@ -1,0 +1,13 @@
+{
+    "values": [
+        "air",
+        "cave_air",
+        "void_air",
+        "structure_void",
+        "water",
+        "lava",
+        "fire",
+        "soul_fire",
+        "#flowers"
+    ]
+}

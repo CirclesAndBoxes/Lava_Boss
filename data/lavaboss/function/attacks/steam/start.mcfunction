@@ -1,0 +1,1 @@
+# Initialize the function with particle effects that attacks
