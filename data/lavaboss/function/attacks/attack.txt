@@ -1,0 +1,3 @@
+We will be copying from FlowerBoss with this. In other words, attacks are not INITIALIZED, they are SET. 
+
+Set the BossStage to XXX and AttackTicker to 0, then let AttackTicker move up
