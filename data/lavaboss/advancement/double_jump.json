@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "jump": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "input": {
+              "jump": true
+            }
+          },
+          "flags": {
+            "is_on_ground": false,
+            "is_flying": false
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "jump"
+    ]
+  ],
+  "rewards": {
+    "function": "lavaboss:player/double_jump"
+  }
+}

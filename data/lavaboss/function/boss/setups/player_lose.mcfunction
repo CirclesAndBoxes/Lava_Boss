@@ -1,0 +1,1 @@
+# When the players all die

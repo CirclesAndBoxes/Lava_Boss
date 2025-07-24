@@ -1,4 +1,4 @@
-# Ran when BossStage is at 0 and BossTimer is at 0. 
+# Ran when BossAttack is at 0 and BossTimer is at 0. 
 
 scoreboard players set @s LaBo_AttackTicker 0
 
@@ -8,7 +8,7 @@ scoreboard players set @s LaBo_AttackTicker 0
 ## execute if score #rng scratch matches 1..10 ...
 
 
-execute store result score @s LaBo_BossStage run random value 10..15
+execute store result score @s LaBo_BossAttack run random value 1..10
 
 
 

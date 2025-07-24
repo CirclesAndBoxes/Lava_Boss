@@ -8,11 +8,16 @@ scoreboard objectives add LaBo_JumpTimer dummy
 scoreboard objectives add LaBo_JumpTick dummy
 
 scoreboard objectives add LaBo_WarpTick dummy
+# The attack number of the boss
 scoreboard objectives add LaBo_BossAttack dummy
 scoreboard objectives add LaBo_BossTimer dummy
 # You see, I could make do with BossTimer. However, I want my timers to count down and I want the attack ticker to count up 
 # because that makes the most sense to me. So, a new scoreboard objective it is.
 scoreboard objectives add LaBo_AttackTicker dummy
+
+scoreboard objectives add LaBo_BossHealth dummy
+scoreboard objectives add LaBo_TempHealth dummy
+
 
 
 
