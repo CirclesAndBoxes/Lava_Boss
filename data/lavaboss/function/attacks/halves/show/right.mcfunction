@@ -1,0 +1,1 @@
+execute positioned ~10 ~-10 ~-10 facing ~ ~ ~1 run function lavaboss:raytrace/start {"range": 21, "dx": 1, "function": "lavaboss:attacks/halves/show/flame_particle"}

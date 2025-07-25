@@ -1,6 +1,6 @@
 # Now the magma cube is attacking
 
-data merge entity @s {NoAI:0b,Invulnerable:0b}
+data merge entity @s {NoAI:0b,Invulnerable:0b,Health:1.0f}
 tag @s remove LaBo_magma1
 tag @s add LaBo_Magma
 

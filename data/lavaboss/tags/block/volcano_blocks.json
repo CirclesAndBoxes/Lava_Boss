@@ -1,0 +1,11 @@
+{
+    "values": [
+        "lava",
+        "#dirt",
+        "#mineable/pickaxe",
+        "#mineable/shovel",
+        "#base_stone_nether",
+        "#mineable/hoe",
+        "#mineable/axe"
+    ]
+}

@@ -1,0 +1,1 @@
+particle flame ~ ~ ~ 1 1 1 0.05 3
