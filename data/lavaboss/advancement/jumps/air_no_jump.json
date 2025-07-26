@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "air_no_jump": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "input": {
+              "jump": false
+            }
+          },
+          "flags": {
+            "is_on_ground": false,
+            "is_flying": false
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "air_no_jump"
+    ]
+  ],
+  "rewards": {
+    "function": "lavaboss:player/jumps/air_no_jump"
+  }
+}

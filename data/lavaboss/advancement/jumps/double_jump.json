@@ -25,6 +25,6 @@
     ]
   ],
   "rewards": {
-    "function": "lavaboss:player/double_jump"
+    "function": "lavaboss:player/jumps/double_jump"
   }
 }

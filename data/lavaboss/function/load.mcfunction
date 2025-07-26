@@ -1,4 +1,6 @@
 scoreboard objectives add lavaboss_RegenTimer dummy
+scoreboard players set #RegenType lavaboss_RegenTimer 1
+
 # It is here where I decided that shortening the name would be a better idea. LaBo for lavaboss 
 scoreboard objectives add LaBo_BossStage dummy
 scoreboard objectives add scratch dummy
@@ -6,6 +8,8 @@ scoreboard objectives add constants dummy
 scoreboard players set #20 constants 20
 scoreboard objectives add LaBo_JumpTimer dummy
 scoreboard objectives add LaBo_JumpTick dummy
+
+scoreboard objectives add LaBo_JumpState dummy
 
 scoreboard objectives add LaBo_WarpTick dummy
 # The attack number of the boss

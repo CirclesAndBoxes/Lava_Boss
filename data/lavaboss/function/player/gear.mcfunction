@@ -8,8 +8,8 @@ item replace entity @s armor.feet with leather_boots[item_name=[{"bold":false,"c
 
 item replace entity @s hotbar.0 with iron_sword[consumable={consume_seconds:1000000,animation:"none",has_consume_particles:false},custom_data={LaBo_warp_mace:true},max_damage=100,damage=0,item_name={"bold":true,"color":"#BDB9B9","italic":false,"text":"Warp Mace"},lore=[{"bold":false,"color":"#FFFFFF","italic":false,"text":"Right Click to Teleport"},{"bold":false,"color":"#FFFFFF","italic":false,"text":"Teleport 7 blocks"}],enchantments={wind_burst:2},weapon={item_damage_per_attack:0}] 1
 
-item replace entity @s hotbar.0 with bow[unbreakable={},enchantments={infinity:1}]
+item replace entity @s hotbar.1 with bow[unbreakable={},enchantments={infinity:1}]
 
 item replace entity @s inventory.26 with arrow[custom_data={LaBo_Arrow:true}] 1
 
-item replace entity @s hotbar.2 with feather[consumable={consume_seconds:1000000,animation:"none",has_consume_particles:false},custom_data={LaBo_Jump:true}] 1
+item replace entity @s hotbar.7 with feather[consumable={consume_seconds:1000000,animation:"none",has_consume_particles:false},custom_data={LaBo_Jump:false}] 1

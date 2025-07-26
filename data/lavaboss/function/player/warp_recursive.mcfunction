@@ -1,6 +1,7 @@
 # at / as / faced
 
 # Already given that block in front of player is air
-tp @s ^ ^ ^.1
+tp @s ~ ~ ~
 scoreboard players remove #warp scratch 1
-execute if score #warp scratch matches 1.. unless block ^ ^ ^.1 air run function lavaboss:player/warp_recursive
+tellraw @a "recursive"
+execute if score #warp scratch matches 1.. positioned ^ ^ ^.2 if block ~ ~ ~ #lavaboss:some_passables run function lavaboss:player/warp_recursive
