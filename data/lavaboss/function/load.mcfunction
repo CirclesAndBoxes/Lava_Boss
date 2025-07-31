@@ -23,6 +23,10 @@ scoreboard objectives add LaBo_BossHealth dummy
 scoreboard objectives add LaBo_TempHealth dummy
 
 
+scoreboard objectives add LaBo_TempHealth dummy
+
+
+
 
 
 tellraw @a [{"text":"Lava Boss In","bold":true,color:'#d60000'}]

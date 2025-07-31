@@ -1,0 +1,1 @@
+$summon marker ~$(x) ~$(y) ~$(z) {Tags:["LaBo_Wall","init"]}

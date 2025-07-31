@@ -9,3 +9,7 @@ execute if score @s LaBo_AttackTicker matches 30 as @e[type=magma_cube,tag=LaBo_
 execute if score @s LaBo_AttackTicker matches 40 as @e[type=magma_cube,tag=LaBo_magma1] at @s run function lavaboss:attacks/mag_summon/grow4
 
 execute if score @s LaBo_AttackTicker matches 40 store result score @s LaBo_TempHealth run data get entity @s Health
+
+execute if score @s LaBo_AttackTicker matches 40 store result score @s LaBo_TempHealth run data get entity @s Health
+
+execute if score @s LaBo_AttackTicker matches 41.. run function lavaboss:attacks/mag_summon/detect_health_lost

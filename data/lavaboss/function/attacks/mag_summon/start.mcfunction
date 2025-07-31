@@ -12,4 +12,4 @@ spreadplayers ~ ~ 6 10 false @e[type=armor_stand,tag=init]
 
 execute as @e[type=armor_stand,tag=init] at @s run function lavaboss:attacks/mag_summon/grow1
 # To Do: Random position
-#execute as @e[type=armor_stand,tag=init] at @s run function rand_pos
+execute as @e[type=armor_stand,tag=init] at @s run function lavaboss:attacks/mag_summon/rand_height

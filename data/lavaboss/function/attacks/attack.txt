@@ -7,3 +7,7 @@ Attack Ideas:
 - Magma cubes
 - Blazes
 - Damaging walls
+- Bees
+
+Note to self: I want there to only be XXX of a certain type of mob present. 
+* If there are at least 10 mobs, then no more mob summoning attacks

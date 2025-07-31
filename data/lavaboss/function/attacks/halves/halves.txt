@@ -1,0 +1,4 @@
+So basically, the plan is to:
+1. Make a marker that can perfectally fill the arena 
+2. Move the marker such that it is at the side (up down left right)
+3. Run the function damaging the player for a certain arena
