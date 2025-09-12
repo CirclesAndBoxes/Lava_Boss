@@ -8,7 +8,9 @@ scoreboard players set @s LaBo_AttackTicker 0
 ## execute if score #rng scratch matches 1..10 ...
 
 
-execute store result score @s LaBo_BossAttack run random value 1..10
+execute if score #num LaBo_EntityNum matches ..3 store result score @s LaBo_BossAttack run random value 1..10
+execute if score #num LaBo_EntityNum matches 4.. store result score @s LaBo_BossAttack run random value 1..10
+
 
 
 

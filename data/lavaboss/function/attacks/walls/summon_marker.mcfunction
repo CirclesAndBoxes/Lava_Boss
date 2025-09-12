@@ -23,4 +23,6 @@ execute if score #temp scratch matches 1 at @n[type=marker,tag=init] run particl
 execute if score #temp scratch matches 2 at @n[type=marker,tag=init] run particle campfire_cosy_smoke ~ ~ ~ 8 0.05 8 0.1 200
 execute if score #temp scratch matches 3 at @n[type=marker,tag=init] run particle campfire_cosy_smoke ~ ~ ~ 8 8 0.05 0.1 200
 
+scoreboard players set @n[type=marker,tag=init] LaBo_LifeLeft 40
+
 tag @n[type=marker,tag=init] remove init

@@ -1,4 +1,4 @@
-execute if score @s LaBo_AttackTicker matches 0 run function lavaboss:attacks/blazes/first_summon
+execute if score @s LaBo_AttackTicker matches 0 run particle dust{color:16636700,scale:1} ~ ~ ~ 2 2 2 1 40
 
 # 8 markers, 2 particles per tick, 31 ticks means a lot of particles
 execute if score @s LaBo_AttackTicker matches 0..30 as @e[type=marker,tag=LaBo_blaze_marker] at @s run particle lava ~ ~ ~ .1 .1 .1 0.1 2
@@ -7,5 +7,4 @@ execute if score @s LaBo_AttackTicker matches 30 run function lavaboss:attacks/b
 
 execute if score @s LaBo_AttackTicker matches 31 store result score @s LaBo_TempHealth run data get entity @s Health
 
-# Giving them 15 seconds. I'm so generous
-execute if score @s LaBo_AttackTicker matches 300 run function lavaboss:attacks/end
+execute if score @s LaBo_AttackTicker matches 31 run function lavaboss:attacks/blazes/detect_health_lost

@@ -1,0 +1,7 @@
+summon bee ~ ~ ~ {Tags:["LaBo_Bee","LaBo_BossSummon"],AngerTime:1000000,PersistenceRequired:1b,Health:1.0f,CustomName:{text:"Fire Ant",color:"red",bold:true},attributes:[{id:"scale",base:2},{id:"max_health",base:1},{id:"flying_speed",base:0.5}]}
+summon bee ~ ~ ~ {Tags:["LaBo_Bee","LaBo_BossSummon"],AngerTime:1000000,PersistenceRequired:1b,Health:1.0f,CustomName:{text:"Fire Ant",color:"red",bold:true},attributes:[{id:"scale",base:2},{id:"max_health",base:1},{id:"flying_speed",base:0.5}]}
+summon bee ~ ~ ~ {Tags:["LaBo_Bee","LaBo_BossSummon"],AngerTime:1000000,PersistenceRequired:1b,Health:1.0f,CustomName:{text:"Fire Ant",color:"red",bold:true},attributes:[{id:"scale",base:2},{id:"max_health",base:1},{id:"flying_speed",base:0.5}]}
+summon bee ~ ~ ~ {Tags:["LaBo_Bee","LaBo_BossSummon"],AngerTime:1000000,PersistenceRequired:1b,Health:1.0f,CustomName:{text:"Fire Ant",color:"red",bold:true},attributes:[{id:"scale",base:2},{id:"max_health",base:1},{id:"flying_speed",base:0.5}]}
+summon bee ~ ~ ~ {Tags:["LaBo_Bee","LaBo_BossSummon"],AngerTime:1000000,PersistenceRequired:1b,Health:1.0f,CustomName:{text:"Fire Ant",color:"red",bold:true},attributes:[{id:"scale",base:2},{id:"max_health",base:1},{id:"flying_speed",base:0.5}]}
+summon bee ~ ~ ~ {Tags:["LaBo_Bee","LaBo_BossSummon"],AngerTime:1000000,PersistenceRequired:1b,Health:1.0f,CustomName:{text:"Fire Ant",color:"red",bold:true},attributes:[{id:"scale",base:2},{id:"max_health",base:1},{id:"flying_speed",base:0.5}]}
+

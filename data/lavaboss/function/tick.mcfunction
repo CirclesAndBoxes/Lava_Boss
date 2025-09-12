@@ -14,3 +14,6 @@ execute as @e[type=marker,tag=LaBo_Boss,scores={LaBo_BossStage=1..}] at @s run f
 # Will definitely need to check this. 
 # Also this might be laggier than actually having the arrows in the ground in the long run but it looks cool
 kill @e[type=arrow,nbt={inGround:true,item:{components:{"minecraft:custom_data":{LaBo_Arrow:true}}}}]
+
+scoreboard players remove @e[scores={LaBo_LifeLeft=1..}] LaBo_LifeLeft 1
+kill @e[scores={LaBo_LifeLeft=..0}]

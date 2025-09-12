@@ -11,4 +11,11 @@ execute if score @s LaBo_BossAttack matches 1 run function lavaboss:attacks/stea
 execute if score @s LaBo_BossAttack matches 2 run function lavaboss:attacks/mag_summon/tick
 execute if score @s LaBo_BossAttack matches 3 run function lavaboss:attacks/halves/tick
 execute if score @s LaBo_BossAttack matches 4 run function lavaboss:attacks/blazes/tick
+execute if score @s LaBo_BossAttack matches 5 run function lavaboss:attacks/walls/tick
 
+
+
+execute as @e[type=bee,tag=LaBo_Bee] run data merge entity @s {AngerTime:100000,HasStung:0b}
+execute as @e[type=magma_cube,tag=LaBo_Magma] at @s rotated as @s run function lavaboss:attacks/mag_summon/move_tick
+
+execute store result score #num LaBo_EntityNum if entity @e[tag=LaBo_BossSummon]

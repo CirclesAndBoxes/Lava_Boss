@@ -6,6 +6,7 @@ scoreboard objectives add LaBo_BossStage dummy
 scoreboard objectives add scratch dummy
 scoreboard objectives add constants dummy
 scoreboard players set #20 constants 20
+
 scoreboard objectives add LaBo_JumpTimer dummy
 scoreboard objectives add LaBo_JumpTick dummy
 
@@ -22,8 +23,11 @@ scoreboard objectives add LaBo_AttackTicker dummy
 scoreboard objectives add LaBo_BossHealth dummy
 scoreboard objectives add LaBo_TempHealth dummy
 
+scoreboard objectives add BossID dummy
 
-scoreboard objectives add LaBo_TempHealth dummy
+scoreboard objectives add LaBo_EntityNum dummy
+
+scoreboard objectives add LaBo_LifeLeft dummy
 
 
 
